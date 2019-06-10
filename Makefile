@@ -12,7 +12,7 @@ integration:
 tools:
 	go get -u github.com/robertkrimen/godocdown/godocdown
 	go get -u github.com/kardianos/govendor
-	go get -u honnef.co/go/tools/staticcheck
+	go get -u honnef.co/go/tools/cmd/staticcheck
 	go get -u github.com/client9/misspell/cmd/misspell
 	go get -u golang.org/x/lint/golint
 
