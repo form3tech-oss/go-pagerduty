@@ -4,6 +4,9 @@ language: go
 go:
 - "1.12.4"
 
+env:
+  GO111MODULE=off
+
 install:
 - make tools
 
